@@ -1,0 +1,48 @@
+html {
+  height: 100vh;
+}
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #282828;
+  color: #665c54 !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#startpage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15pt;
+  font-weight: lighter;
+}
+
+li:before {
+  content: "\002B";
+  padding: 0;
+}
+
+a {
+  color: #665c54;
+  text-decoration: none;
+}
+
+span#time {
+  color: #665c54;
+  font-size: 25pt;
+  font-weight: lighter;
+}
