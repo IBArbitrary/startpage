@@ -2,6 +2,7 @@ html {
   height: 100vh;
 }
 body {
+  font-family: monospace;
   position: absolute;
   top: 0;
   bottom: 0;
