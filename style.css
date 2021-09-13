@@ -8,7 +8,7 @@ body {
   right: 0;
   left: 0;
   background-color: #282828;
-  color: #665c54 !important;
+  color: #a89984 !important;
 }
 
 html,
@@ -18,15 +18,20 @@ body {
 }
 
 #startpage {
+  background: #32302f;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3c3836;
 }
 
 ul {
   list-style: none;
-  padding: 10;
+  padding: 0;
   font-size: 15pt;
   font-weight: lighter;
 }
@@ -37,16 +42,20 @@ ul {
 /* } */
 
 a {
-  color: #665c54;
+  color: #a89984;
   text-decoration: none;
 }
 
 span#time {
-  color: #665c54;
+  color: #a89984;
   font-size: 25pt;
   font-weight: lighter;
 }
 
 li:hover {
-  font-weight: bold;
+  font-weight: 400;
+}
+
+div#links {
+  column-count: 4;
 }
