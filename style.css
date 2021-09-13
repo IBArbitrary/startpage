@@ -26,15 +26,15 @@ body {
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: 10;
   font-size: 15pt;
   font-weight: lighter;
 }
 
-li:before {
-  content: "\002B";
-  padding: 0;
-}
+/* li:before { */
+/*   content: "\002B"; */
+/*   padding: 0; */
+/* } */
 
 a {
   color: #665c54;
@@ -45,4 +45,8 @@ span#time {
   color: #665c54;
   font-size: 25pt;
   font-weight: lighter;
+}
+
+li:hover {
+  font-weight: bold;
 }
