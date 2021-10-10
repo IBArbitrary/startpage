@@ -54,9 +54,9 @@ span#time {
 }
 
 li:hover {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 div#links {
-  column-count: 4;
+  column-count: 5;
 }
