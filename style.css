@@ -36,23 +36,13 @@ ul {
   list-style: none;
   padding: 0;
   font-size: 15pt;
-  font-weight: lighter;
+  font-weight: 300;
+  margin: 0;
 }
-
-/* li:before { */
-/*   content: "\002B"; */
-/*   padding: 0; */
-/* } */
 
 a {
   color: #a89984;
   text-decoration: none;
-}
-
-span#time {
-  color: #a89984;
-  font-size: 25pt;
-  font-weight: lighter;
 }
 
 li:hover {
