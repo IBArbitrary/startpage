@@ -32,6 +32,11 @@ body {
   box-shadow: 0px 0px 20px 10px #1d202150 !important;
 }
 
+#startpage:hover {
+  border-color: #fb4934;
+  box-shadow: 0px 0px 20px 10px #1d2021ff !important;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -41,12 +46,13 @@ ul {
 }
 
 a {
-  color: #a89984;
+  color: #928374;
   text-decoration: none;
 }
 
-li:hover {
-  font-weight: 500;
+a:hover {
+  color: #fb4934;
+  font-weight: 600;
 }
 
 div#links {
