@@ -33,7 +33,7 @@ body {
 }
 
 #startpage:hover {
-  border-color: #fb4934;
+  border-color: #ebdbb2;
   box-shadow: 0px 0px 20px 10px #1d2021ff !important;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-  color: #fb4934;
+  color: #ebdbb2;
   font-weight: 600;
 }
 
