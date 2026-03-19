@@ -1,13 +1,13 @@
 :root {
-  --bg-main: #fbfbfb;
-  --bg-card: #fdf6e3;
-  --text-main: #424242;
-  --text-link: #657b83;
-  --text-link-hover: #b58900;
-  --border-color: #dbd6c8;
-  --border-hover: #b58900;
-  --shadow-color: rgba(0, 0, 0, 0.15);
-  --shadow-color-hover: rgba(0, 0, 0, 0.2);
+  --bg-main: #fbf1c7;
+  --bg-card: #ebdbb2;
+  --text-main: #a89984;
+  --text-link: #928374;
+  --text-link-hover: #7c6f64;
+  --border-color: #7c6f64;
+  --border-hover: #665c54;
+  --shadow-color: #f9f5d750;
+  --shadow-color-hover: #f9f5d7ff;
 }
 
 @media (prefers-color-scheme: dark) {
